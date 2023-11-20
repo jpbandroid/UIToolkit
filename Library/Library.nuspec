@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+    <metadata>
+    <id>jpbandroid.Toolkit</id>
+    <version>1.0.0</version>
+    <title>jpbandroid Toolkit</title>
+    <authors>jpbandroid</authors>
+    <owners>jpbandroid</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>UI controls library for UWP apps</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2023</copyright>
+    <tags>ui toolkit uitoolkit winui uwp</tags>
+    </metadata>
+</package>
