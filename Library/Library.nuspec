@@ -12,4 +12,23 @@
     <copyright>Copyright 2023</copyright>
     <tags>ui toolkit uitoolkit winui uwp</tags>
     </metadata>
+    <files>
+        <!-- WinMd and IntelliSense -->
+      <file src="bin\x64\Debug\Library.winmd" target="lib\uap10.0"/>
+      <file src="bin\x64\Debug\Library.xml" target="lib\uap10.0"/>
+
+    <!-- XAML controls -->
+    <file src="Themes\Generic.xaml" target="lib\uap10.0\Themes"/>
+    <!-- WINMDs and resources -->
+      <file src="bin\ARM\Debug\Library.winmd" target="runtimes\win10-arm"/>
+      <file src="bin\ARM\Debug\Library.pri" target="runtimes\win10-arm"/>
+
+      <file src="bin\ARM64\Debug\Library.winmd" target="runtimes\win10-arm64"/>
+      <file src="bin\ARM64\Debug\Library.pri" target="runtimes\win10-arm64"/>
+
+      <file src="bin\x64\Debug\Library.winmd" target="runtimes\win10-x64"/>
+      <file src="bin\x64\Debug\Library.pri" target="runtimes\win10-x64"/>
+
+      <file src="bin\x86\Debug\Library.winmd" target="runtimes\win10-x86"/>
+      <file src="bin\x86\Debug\Library.pri" target="runtimes\win10-x86"/>
 </package>
